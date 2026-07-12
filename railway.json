@@ -4,8 +4,8 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python -m ondo_var_hedge.monitor --loop",
+    "startCommand": "python -m ondo_var_hedge.monitor",
     "restartPolicyType": "ON_FAILURE",
-    "healthcheckPath": null
+    "healthcheckPath": "/health"
   }
 }
