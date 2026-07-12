@@ -1,0 +1,18 @@
+# secrets — NEVER commit
+.env
+*.env
+.env.*
+secrets.json
+credentials.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# railway / os
+.railway/
+.DS_Store
