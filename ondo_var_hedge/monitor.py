@@ -125,3 +125,7 @@ def main() -> int:
     print(f"Listening on 0.0.0.0:{port}", flush=True)
     srv.serve_forever()
     return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
